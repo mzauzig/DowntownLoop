@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		256538DB1E4642B300C06910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256538DA1E4642B300C06910 /* AppDelegate.swift */; };
-		256538DD1E4642B300C06910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256538DC1E4642B300C06910 /* ViewController.swift */; };
 		256538E01E4642B300C06910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256538DE1E4642B300C06910 /* Main.storyboard */; };
 		256538E31E4642B300C06910 /* DowntownLoop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 256538E11E4642B300C06910 /* DowntownLoop.xcdatamodeld */; };
 		256538E51E4642B300C06910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256538E41E4642B300C06910 /* Assets.xcassets */; };
 		256538E81E4642B300C06910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256538E61E4642B300C06910 /* LaunchScreen.storyboard */; };
 		256538F31E4642B300C06910 /* DowntownLoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256538F21E4642B300C06910 /* DowntownLoopTests.swift */; };
 		256538FE1E4642B300C06910 /* DowntownLoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256538FD1E4642B300C06910 /* DowntownLoopUITests.swift */; };
+		256539131E464B9900C06910 /* AtlantaStreetcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 256539121E464B9900C06910 /* AtlantaStreetcar.png */; };
+		256539191E465FDE00C06910 /* DowntownLoopLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 256539181E465FDE00C06910 /* DowntownLoopLogo.png */; };
+		256539211E46950100C06910 /* ZWKAnimatedLogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256539201E46950100C06910 /* ZWKAnimatedLogoViewController.swift */; };
+		256539271E46B30900C06910 /* AtlantaStreetcarLogoLeafCyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 256539241E46B30900C06910 /* AtlantaStreetcarLogoLeafCyan.png */; };
+		256539281E46B30900C06910 /* AtlantaStreetcarLogoLeafGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 256539251E46B30900C06910 /* AtlantaStreetcarLogoLeafGreen.png */; };
+		256539291E46B30900C06910 /* AtlantaStreetcarLogoLeafPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 256539261E46B30900C06910 /* AtlantaStreetcarLogoLeafPurple.png */; };
+		2565392B1E490FDF00C06910 /* AtlantaStreetcarLogoMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2565392A1E490FDF00C06910 /* AtlantaStreetcarLogoMask.png */; };
+		2565392F1E491ED600C06910 /* AtlantaStreetcarLogoText.png in Resources */ = {isa = PBXBuildFile; fileRef = 2565392E1E491ED600C06910 /* AtlantaStreetcarLogoText.png */; };
+		256539331E49271900C06910 /* AtlantaStreetcarLogoSkyline.png in Resources */ = {isa = PBXBuildFile; fileRef = 256539321E49271900C06910 /* AtlantaStreetcarLogoSkyline.png */; };
+		256539351E4958B600C06910 /* ZWKFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256539341E4958B600C06910 /* ZWKFirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,6 @@
 /* Begin PBXFileReference section */
 		256538D71E4642B300C06910 /* DowntownLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DowntownLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		256538DA1E4642B300C06910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		256538DC1E4642B300C06910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		256538DF1E4642B300C06910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		256538E21E4642B300C06910 /* DowntownLoop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DowntownLoop.xcdatamodel; sourceTree = "<group>"; };
 		256538E41E4642B300C06910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,17 @@
 		256538F91E4642B300C06910 /* DowntownLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DowntownLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		256538FD1E4642B300C06910 /* DowntownLoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowntownLoopUITests.swift; sourceTree = "<group>"; };
 		256538FF1E4642B300C06910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256539121E464B9900C06910 /* AtlantaStreetcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtlantaStreetcar.png; sourceTree = "<group>"; };
+		256539181E465FDE00C06910 /* DowntownLoopLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DowntownLoopLogo.png; sourceTree = "<group>"; };
+		2565391C1E46861B00C06910 /* DowntownLoop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DowntownLoop-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		256539201E46950100C06910 /* ZWKAnimatedLogoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWKAnimatedLogoViewController.swift; sourceTree = "<group>"; };
+		256539241E46B30900C06910 /* AtlantaStreetcarLogoLeafCyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtlantaStreetcarLogoLeafCyan.png; sourceTree = "<group>"; };
+		256539251E46B30900C06910 /* AtlantaStreetcarLogoLeafGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtlantaStreetcarLogoLeafGreen.png; sourceTree = "<group>"; };
+		256539261E46B30900C06910 /* AtlantaStreetcarLogoLeafPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtlantaStreetcarLogoLeafPurple.png; sourceTree = "<group>"; };
+		2565392A1E490FDF00C06910 /* AtlantaStreetcarLogoMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtlantaStreetcarLogoMask.png; sourceTree = "<group>"; };
+		2565392E1E491ED600C06910 /* AtlantaStreetcarLogoText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtlantaStreetcarLogoText.png; sourceTree = "<group>"; };
+		256539321E49271900C06910 /* AtlantaStreetcarLogoSkyline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtlantaStreetcarLogoSkyline.png; sourceTree = "<group>"; };
+		256539341E4958B600C06910 /* ZWKFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWKFirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +118,12 @@
 		256538D91E4642B300C06910 /* DowntownLoop */ = {
 			isa = PBXGroup;
 			children = (
-				256538DA1E4642B300C06910 /* AppDelegate.swift */,
-				256538DC1E4642B300C06910 /* ViewController.swift */,
-				256538DE1E4642B300C06910 /* Main.storyboard */,
 				256538E41E4642B300C06910 /* Assets.xcassets */,
-				256538E61E4642B300C06910 /* LaunchScreen.storyboard */,
 				256538E91E4642B300C06910 /* Info.plist */,
-				256538E11E4642B300C06910 /* DowntownLoop.xcdatamodeld */,
+				2565391C1E46861B00C06910 /* DowntownLoop-Bridging-Header.h */,
+				2565390E1E46454C00C06910 /* Database */,
+				2565390D1E46454300C06910 /* UI */,
+				2565390F1E46484700C06910 /* Images */,
 			);
 			path = DowntownLoop;
 			sourceTree = "<group>";
@@ -126,6 +144,41 @@
 				256538FF1E4642B300C06910 /* Info.plist */,
 			);
 			path = DowntownLoopUITests;
+			sourceTree = "<group>";
+		};
+		2565390D1E46454300C06910 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				256538DA1E4642B300C06910 /* AppDelegate.swift */,
+				256538DE1E4642B300C06910 /* Main.storyboard */,
+				256538E61E4642B300C06910 /* LaunchScreen.storyboard */,
+				256539201E46950100C06910 /* ZWKAnimatedLogoViewController.swift */,
+				256539341E4958B600C06910 /* ZWKFirstViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2565390E1E46454C00C06910 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				256538E11E4642B300C06910 /* DowntownLoop.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		2565390F1E46484700C06910 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				256539121E464B9900C06910 /* AtlantaStreetcar.png */,
+				256539181E465FDE00C06910 /* DowntownLoopLogo.png */,
+				256539241E46B30900C06910 /* AtlantaStreetcarLogoLeafCyan.png */,
+				256539251E46B30900C06910 /* AtlantaStreetcarLogoLeafGreen.png */,
+				256539261E46B30900C06910 /* AtlantaStreetcarLogoLeafPurple.png */,
+				2565392A1E490FDF00C06910 /* AtlantaStreetcarLogoMask.png */,
+				2565392E1E491ED600C06910 /* AtlantaStreetcarLogoText.png */,
+				256539321E49271900C06910 /* AtlantaStreetcarLogoSkyline.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +249,8 @@
 				TargetAttributes = {
 					256538D61E4642B300C06910 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NL3UW52U29;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					256538ED1E4642B300C06910 = {
@@ -235,9 +290,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256539331E49271900C06910 /* AtlantaStreetcarLogoSkyline.png in Resources */,
+				256539291E46B30900C06910 /* AtlantaStreetcarLogoLeafPurple.png in Resources */,
+				256539281E46B30900C06910 /* AtlantaStreetcarLogoLeafGreen.png in Resources */,
+				256539191E465FDE00C06910 /* DowntownLoopLogo.png in Resources */,
 				256538E81E4642B300C06910 /* LaunchScreen.storyboard in Resources */,
+				256539271E46B30900C06910 /* AtlantaStreetcarLogoLeafCyan.png in Resources */,
+				256539131E464B9900C06910 /* AtlantaStreetcar.png in Resources */,
+				2565392B1E490FDF00C06910 /* AtlantaStreetcarLogoMask.png in Resources */,
 				256538E51E4642B300C06910 /* Assets.xcassets in Resources */,
 				256538E01E4642B300C06910 /* Main.storyboard in Resources */,
+				2565392F1E491ED600C06910 /* AtlantaStreetcarLogoText.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256538DD1E4642B300C06910 /* ViewController.swift in Sources */,
+				256539211E46950100C06910 /* ZWKAnimatedLogoViewController.swift in Sources */,
 				256538E31E4642B300C06910 /* DowntownLoop.xcdatamodeld in Sources */,
+				256539351E4958B600C06910 /* ZWKFirstViewController.swift in Sources */,
 				256538DB1E4642B300C06910 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,10 +478,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NL3UW52U29;
 				INFOPLIST_FILE = DowntownLoop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZWK.DowntownLoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DowntownLoop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +494,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NL3UW52U29;
 				INFOPLIST_FILE = DowntownLoop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZWK.DowntownLoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DowntownLoop-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
